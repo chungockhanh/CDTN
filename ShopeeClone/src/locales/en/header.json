@@ -1,0 +1,9 @@
+{
+  "enter product name": "Enter the name of the product you want to find",
+  "pop over": {
+    "new products added": "New products added",
+    "add item to cart": "Add item to cart",
+    "view cart": "View cart"
+  },
+  "no product": "No product"
+}

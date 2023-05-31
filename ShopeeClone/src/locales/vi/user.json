@@ -1,0 +1,34 @@
+{
+  "side nav": {
+    "edit profile": "Sửa hồ sơ",
+    "my account": "Tài khoản của tôi",
+    "change password": "Đổi mật khẩu",
+    "purchase": "Đơn mua"
+  },
+  "profile": {
+    "title": "Hồ Sơ Của Tôi",
+    "sub title": "Quản lý thông tin hồ sơ bảo mật tài khoản",
+    "name": "Tên",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "save": "Lưu",
+    "note maximum capacity image": "Dung lượng file tối đa 1MB",
+    "note format file": "Định dạng .JPEG, .JPG, .PNG",
+    "choose picture": "Chọn ảnh",
+    "dob": "Ngày sinh",
+    "day": "Ngày",
+    "month": "Tháng",
+    "year": "Năm",
+    "save success": "Cập nhật thông tin thành công",
+    "upload file error": "Dung lượng file tối đa 1MB. Định dạng .JPEG, .JPG, .PNG"
+  },
+  "change password": {
+    "title": "Đổi mật khẩu",
+    "sub title": "Quản lý thông tin hồ sơ để bảo mật tài khoản",
+    "old password": "Mật khẩu cũ",
+    "new password": "Mật khẩu mới",
+    "confirm password": "Nhập lại mật khẩu",
+    "save": "Lưu",
+    "save success": "Cập nhật mật khẩu thành công"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "header name": "Giỏ hàng",
+  "product": "sản phẩm",
+  "unit price": "Đơn giá",
+  "quantity": "Số lượng",
+  "price": "Số tiền",
+  "action": "Thao tác",
+  "delete": "Xóa",
+  "total payment": "Tổng thanh toán",
+  "save money": "Tiết kiệm",
+  "purchase": "Mua hàng",
+  "note": "Lưu ý: Các sản phẩm trong giỏ hàng chỉ tồn tại trong vòng 1 tuần",
+  "cart empty": "Giỏ hàng của bạn còn trống",
+  "buy now": "Mua ngay",
+  "select all": "Chọn tất cả",
+  "delete success": "Xóa đơn hàng thành công",
+  "buy error": "Cập nhật địa chỉ và số điện thoại để mua hàng"
+}
