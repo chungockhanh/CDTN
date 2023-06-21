@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose'
-import { STATUS_PURCHASE } from '../../constants/purchase'
+import { PAYMENT_STATUS, STATUS_PURCHASE } from '../../constants/purchase'
 
 const PurchaseSchema = new Schema(
   {
@@ -10,6 +10,9 @@ const PurchaseSchema = new Schema(
     price_before_discount: { type: Number, default: 0 },
     status: { type: Number, default: STATUS_PURCHASE.WAIT_FOR_CONFIRMATION },
     expireAt: { type: Date, expires: 0 },
+    orderId: { type: String },
+    payMethod: { type: Number },
+    paymentStatus: { type: Number, default: PAYMENT_STATUS.UNPAID },
   },
   {
     timestamps: true,

@@ -14,3 +14,11 @@ export const FOLDERS = {
 }
 
 export const ROUTE_IMAGE = 'images'
+
+export const vnPayConfig = {
+  vnp_TmnCode: 'EXMBM20I',
+  vnp_HashSecret: 'YORTHRIANDBWPJSIATKWGKXIYFOYCJAR',
+  vnp_Url: 'https://sandbox.vnpayment.vn/paymentv2/vpcpay.html',
+  vnp_Api: 'https://sandbox.vnpayment.vn/merchant_webapi/api/transaction',
+  vnp_ReturnUrl: 'http://localhost:3000/payment',
+}

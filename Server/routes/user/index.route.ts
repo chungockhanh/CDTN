@@ -1,18 +1,23 @@
-import { userPurchaseRouter } from "./purchase.route";
-import { userUserRouter } from "./user-user.route";
+import { userPurchaseRouter } from './purchase.route'
+import { userRatingRouter } from './rating.route'
+import { userUserRouter } from './user-user.route'
 
 const userRoutes = {
   prefix: '/',
   routes: [
     {
       path: 'user',
-      route: userUserRouter
+      route: userUserRouter,
     },
     {
       path: 'purchases',
-      route: userPurchaseRouter
-    }
-  ]
+      route: userPurchaseRouter,
+    },
+    {
+      path: 'ratings',
+      route: userRatingRouter,
+    },
+  ],
 }
 
 export default userRoutes

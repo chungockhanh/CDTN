@@ -7,3 +7,13 @@ export const STATUS_PURCHASE = {
   DELIVERED: 4,
   CANCELLED: 5,
 }
+
+export const METHOD_PAY = {
+  BY_CASH: 0,
+  BY_VNPAY: 1,
+}
+
+export const PAYMENT_STATUS = {
+  UNPAID: 0,
+  PAID: 1,
+}

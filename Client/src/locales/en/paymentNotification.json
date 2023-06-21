@@ -1,0 +1,7 @@
+{
+  "paymentSuccess": "Billing Success",
+  "paymentFail": "Billing Failed",
+  "goToCart": "Back to cart",
+  "goToHomePage": "Back to Homepage",
+  "goToPurchaseManager": "Go to Purchase Order"
+}

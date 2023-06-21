@@ -2,27 +2,32 @@ import commonUserRouter from './common-user.route'
 import commonAuthRouter from './common-auth.route'
 import commonProductRouter from './common-product.route'
 import commonCategoryRouter from './common-category.route'
+import commonRatingProductRouter from './commont-rating-product'
 
 const commonRoutes = {
   prefix: '/',
   routes: [
     {
       path: '',
-      route: commonUserRouter
+      route: commonUserRouter,
     },
     {
       path: '',
-      route: commonAuthRouter
+      route: commonAuthRouter,
     },
     {
       path: 'products',
-      route: commonProductRouter
+      route: commonProductRouter,
     },
     {
       path: 'categories',
-      route: commonCategoryRouter
-    }
-  ]
+      route: commonCategoryRouter,
+    },
+    {
+      path: 'ratings',
+      route: commonRatingProductRouter,
+    },
+  ],
 }
 
 export default commonRoutes
